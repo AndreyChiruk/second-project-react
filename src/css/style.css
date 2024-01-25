@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: rgb(29, 29, 29);
+}
+.header{
+    padding: 30px 70px;
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0 0 10px rgb(19, 19, 19);
+}
+.userBlock{
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 70px;
+    padding: 20px;
+    background-color: #380361;
+    border: 3px solid #2d034e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2d034e;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 70px;
+    float: right;
+}
+input{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: 3px solid rgb(19, 19, 19);
+    background-color: rgb(29, 29, 29);
+    box-shadow: 0 0 5px rgb(19, 19, 19);
+    padding: 20px;
+    width: max-content;
+    outline: none;
+}
+.labelCheckbox{
+    position: relative;
+    left: 20px;
+}
+.labelForm{
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    color:white;
+    padding: 10px 20px;
+    border: 3px solid rgb(19, 19, 19);
+    background-color: rgb(29, 29, 29);
+    box-shadow: 0 0 5px rgb(19, 19, 19);
+}
+button:hover{
+    transform: scale(1.05);
+}
